@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.android.imageclassificationandobjectdetection.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" />
+    <fragment
+        android:id="@+id/imageClassificationFragment"
+        android:name="com.example.android.imageclassificationandobjectdetection.ImageClassification.ImageClassificationFragment"
+        android:label="fragment_image_classification"
+        tools:layout="@layout/fragment_image_classification" />
+    <fragment
+        android:id="@+id/liveObjectDetectionFragment"
+        android:name="com.example.android.imageclassificationandobjectdetection.liveobjectdetection.LiveObjectDetectionFragment"
+        android:label="fragment_live_object_detection"
+        tools:layout="@layout/fragment_live_object_detection" />
+    <fragment
+        android:id="@+id/objectDetectionImageFragment"
+        android:name="com.example.android.imageclassificationandobjectdetection.objectdetectionimage.ObjectDetectionImageFragment"
+        android:label="fragment_object_detection_image"
+        tools:layout="@layout/fragment_object_detection_image" />
+</navigation>

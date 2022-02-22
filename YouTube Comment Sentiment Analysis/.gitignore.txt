@@ -1,0 +1,10 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+training.1600000.processed.noemoticon.csv
+bert_sentiment_140_saved_model/

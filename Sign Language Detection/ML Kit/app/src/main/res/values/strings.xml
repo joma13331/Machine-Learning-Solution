@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Image Classification And Object Detection</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="heading">American Sign Language Detection</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_description">Please select any one of the Computer Vision Tasks to start Sign Language Detection
+    based on American Sign Language for letter detection</string>
+    <string name="image_classification">Image Classification</string>
+    <string name="object_detection_in_an_image">Object Detection In an Image</string>
+    <string name="live_object_detection">Live Object Detection</string>
+
+    <string name="tv_placeholder">Object detection demo</string>
+    <string name="tv_description">Select a preset image or take a new photo</string>
+    <string name="tv_take_photo">Take photo</string>
+</resources>
